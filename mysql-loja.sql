@@ -86,3 +86,43 @@ values
 ("casas bahia"),
 ("renner"),
 ("cacau show");
+
+describe categoria;
+insert into categoria (categoria)
+values
+("roupa"),
+("comida"),
+("doce"),
+("livro"),
+("café");
+
+describe transportadora;
+insert into transportadora (nometransportadora)
+values
+("juninexpress"),
+("zéexpress"),
+("sedex"),
+("joãoexpress"),
+("rafaelexpress");
+
+describe fornecedor;
+insert into fornecedor (nomefornecedor)
+values
+("carlos"),
+("kleber"),
+("emerson"),
+("andré"),
+("lil junior");
+
+describe produto;
+insert into produto (descricao)
+values
+("tortilla"),
+("burrito"),
+("tênis");
+
+insert into produto (qtdemin)
+values
+(20),
+(15),
+(10);
